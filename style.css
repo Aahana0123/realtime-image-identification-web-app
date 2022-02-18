@@ -1,0 +1,47 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: x-large;
+    background-color:#fa4364;
+    font-family: 'El Messiri', sans-serif;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    float: none;
+    padding: 10px;
+
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+    float: none;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  .copy_right_footer{
+    position: fixed;
+bottom: 0;
+width: 100%;
+background-color:#fa4364;
+color: black;
+text-align: center;
+line-height: 2;
+font-size: 20px;
+font-family: 'Akaya Telivigala', cursive;
+  }
+ 
+  canvas{
+    border: 5px dashed black;
+    border-radius: 20px;
+box-shadow: 5px 5px 5px grey;
+margin-top: 125px;
+  }

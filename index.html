@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Akaya+Telivigala&Abril+Fatface&family=Acme&family=Balsamiq+Sans&family=Cookie&family=Courgette&family=El+Messiri&family=Gabriela&family=Indie+Flower&family=Lobster+Two&family=Monoton&family=Montagu+Slab:wght@100&family=Oleo+Script&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Patrick+Hand&family=Rampart+One&display=swap" rel="stylesheet">
+
+</head>
+<body background="background1.jpg">
+<center>
+  <h3 class="heading">Real Time Image Identification App
+    <center>
+      <div class="heading_div col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        We are using Mobilenet as a Model  
+        <br>
+          <div class="heading_div2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          Mobilenet model is trained <br> on more than 1.3 million images.
+          </div>
+        </div>
+    </center>
+    <br>
+  </h3>
+  <br><br>
+  
+  <p class="btn btn-success result_para_tag">Object : 
+    <span id="result_object_name"></span> 
+  </p>
+  
+  <br><br>
+  <p class="btn btn-success result_para_tag">Accuracy : 
+    <span id="result_object_accuracy"></span> 
+  </p>
+
+</center>
+
+<div class="copy_right_footer">
+Developed by - Aahana
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
